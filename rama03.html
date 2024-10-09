@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario registro de vacunacion</title>
+</head>
+<body>
+
+    <h2>Registro para vacunacion COVID-19</h2>
+    <form action="https://example.com" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="apellidos" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required><br><br>
+
+        <label>Sexo:</label>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+
+
+        <label for="correo">Correo:</label><br>
+        <input type="correo" id="correo" name="correo" placeholder="Escribe tu correo" required><br><br>
+
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="contraseña" id="contraseña" name="contraseña" placeholder="Escribe tu contraseña" required><br><br>
+
+        <input type="checkbox" id="condiciones" name="condiciones" required>
+        <label for="condiciones">Declaro haber leído y acepto las condiciones generales del programa</label>
+
+
+        <button type="submit">Enviar</button>
+        </form>
+
+</body>
+</html>
+
